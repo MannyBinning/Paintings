@@ -1,41 +1,69 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Art by Arsh
 
-Welcome USER_NAME,
+## Table of Content 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+1. Description
+2. UX
+3. Wireframe
+4. Visual Identity
+5. Site Overview
+6. User Stories
+7. Testing 
+8. Deployment
+9. Code Validation
+10. Technologies
+11. Media
+12. Acknowledgement and Thanks 
 
-## Gitpod Reminders
+## Description
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## UX
 
-A blue button should appear to click: *Make Public*,
+## Wireframe
 
-Another blue button should appear to click: *Open Browser*.
+##  Visual Identity
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Site Overview
 
-A blue button should appear to click: *Make Public*,
+##  User Stories
+### **User:**
+- As a user, I would like know business owners persoanlity and specialities in the world of Art. 
+- As a user, I would like to see the work done so far by the Artists involved in this business. 
+- As a user, I would like to know the location and time, I can attend to view the paintings in person. 
+- As a user, I would like an understanding on what materials could be used in Art Process.
+- As a user, I would like to collaborate on a Art Work with the owner or Artist's involved in this business.
+- As a user, I would like to know what custom peices are available to purchase. 
 
-Another blue button should appear to click: *Open Browser*.
+### Actions taken to accomplish these goals are:
+- 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+### **Artist:**
+- As an Artist, I would like would like the user to get to know me and to know what king od paintings my interests lie towards. 
+- As an Artist, I would like the user to get to view the Art work I have done so far.
+- As an Artist, I would like the user to make a visit to view the paintings at the time and location set.  
+- As an Artist, I would like to give an insight into my painting process by detailing the equipment I use. 
+- As an Artist, I would like to collaborate with fellow Artists on Art peices therefore would like the users to get in touch if interested. 
+- As an Artist, I would also like the expand my business by introducing users to my custom made peices that are available for purchase. 
 
-## Updates Since The Instructional Video
+### Actions taken to accomplish these goals are:
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed along with other common files.
+##  Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Deployment
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Code Validation
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Technologies
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Media
 
---------
+## Acknowledgement and Thanks 
 
-Happy coding!
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin-left: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body {
+    font-family: Cinzel;
+    color: black; 
+}
+
+h2{
+    font-family: Roboto;
+    color: rgb(49, 45, 45);
+
+
+}
+
+#main-logo{
+
+    width:800px; 
+    height:400px; 
+    position: fixed; 
+    top: 15%; 
+    left: 38%; 
+    margin-top: -100px; 
+    margin-left: -100px; 
+     
+}
+#menu {
+    font-size: 110%;
+    list-style-type: none; 
+    width:800px; 
+    height:200px; 
+    position: fixed; 
+    top: 25%; 
+    left: 45%; 
+    margin-top: -100px; 
+    margin-left: -100px; 
+}
+
+#logo, #menu{
+    line-height: 75px;
+}
+
+#menu li {
+    float: left;
+    margin-right: 70px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+#menu a:hover {
+    border-bottom: 1px solid black;
+    font-size: 110%;
+}
+
+#logo {
+    height: 600px;
+    width: 100%;
+    
+}

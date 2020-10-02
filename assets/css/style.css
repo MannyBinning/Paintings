@@ -42,6 +42,10 @@ h2{
     margin-left: -100px; 
 }
 
+#menu-logo, #menu{
+    line-height: 75px;
+}
+
 #logo, #menu{
     line-height: 75px;
 }
@@ -60,9 +64,35 @@ h2{
     border-bottom: 1px solid black;
     font-size: 110%;
 }
+ .active {
+    border-bottom: 1px solid black;
+    font-size: 110%;
+ }
 
-#logo {
+#main-image{
     height: 600px;
     width: 100%;
+    background: url("https://www.carbonbrief.org/wp-content/uploads/2015/08/stock-forest-wood-england-UK-1550x804.jpg") no-repeat center center;
     
 }
+
+#image-expand {
+    height: 900px;
+    width: 50%;
+    overflow: hidden;
+    padding-top: 250px;
+    padding-left: 50px;
+    float: left;
+}
+#about {
+    height: 600px;
+    padding-top: 250px;
+    width: 40%;
+    float: left;
+    padding-left: 100px;
+}
+
+
+
+
+

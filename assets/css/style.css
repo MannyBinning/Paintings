@@ -10,24 +10,19 @@
 body {
     font-family: Cinzel;
     color: black; 
-}
-
-h2{
-    font-family: Roboto;
-    color: rgb(49, 45, 45);
-
-
+    
 }
 
 #main-logo{
 
     width:800px; 
-    height:400px; 
+    height:500px; 
     position: fixed; 
     top: 15%; 
-    left: 38%; 
+    left: 45%; 
     margin-top: -100px; 
     margin-left: -100px; 
+    background-
      
 }
 #menu {
@@ -36,9 +31,9 @@ h2{
     width:800px; 
     height:200px; 
     position: fixed; 
-    top: 25%; 
+    top: 22%; 
     left: 45%; 
-    margin-top: -100px; 
+    margin-top: -50px; 
     margin-left: -100px; 
 }
 
@@ -80,17 +75,61 @@ h2{
     height: 900px;
     width: 50%;
     overflow: hidden;
-    padding-top: 250px;
-    padding-left: 50px;
+    padding-top: 300px;
+    padding-left: 100px;
     float: left;
 }
 #about {
-    height: 600px;
-    padding-top: 250px;
+    
+    padding-top: 300px;
     width: 40%;
     float: left;
     padding-left: 100px;
+    text-align: center;
 }
+#about-paragraph {
+    height: 600px;
+    padding-top: 20px;
+    width: 35%;
+    float: left;
+    padding-left: 155px;
+    text-align: center;
+    line-height: 30px;
+    
+}
+
+#viewing {
+    height: 600px;
+    padding-top: 20px;
+    width: 75%;
+    padding-left: 25%;
+    text-align: center;
+
+
+}
+
+footer {
+    height: 150px;
+    padding-top: 50px;
+
+}
+
+.social-network {
+    text-align: center;
+}
+
+.social-network li {
+    display: inline;
+
+}
+
+.social-network i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: black;
+}
+
 
 
 

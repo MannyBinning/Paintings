@@ -5,131 +5,98 @@
     padding: 0;
     border: 0;
 }
-
-
 body {
     font-family: Cinzel;
-    color: black; 
-    
+    color: black;     
 }
 
-#main-logo{
-
-    width:800px; 
-    height:500px; 
-    position: fixed; 
-    top: 15%; 
-    left: 45%; 
-    margin-top: -100px; 
-    margin-left: -100px; 
-    background-
-     
+#main-logo {
+    float: none;
+    margin: 0 auto;
+    width: 270px;                  
 }
+
 #menu {
     font-size: 110%;
-    list-style-type: none; 
-    width:800px; 
-    height:200px; 
-    position: fixed; 
-    top: 22%; 
-    left: 45%; 
-    margin-top: -50px; 
-    margin-left: -100px; 
+    list-style-type: none;
+    float: none;
+    margin: 0 auto;
+    margin-left: 700px;
 }
-
-#menu-logo, #menu{
+#main-logo, #menu{
     line-height: 75px;
+    
 }
-
-#logo, #menu{
-    line-height: 75px;
-}
-
 #menu li {
     float: left;
-    margin-right: 70px;
-}
+    margin-right: 200px;
 
+}
 #menu a {
     text-decoration: none;
     color: inherit; 
 }
-
 #menu a:hover {
     border-bottom: 1px solid black;
     font-size: 110%;
 }
- .active {
-    border-bottom: 1px solid black;
-    font-size: 110%;
- }
+
+#main-section{
+    height:600px;
+   
+}
 
 #main-image{
-    height: 600px;
-    width: 100%;
-    background: url("https://www.carbonbrief.org/wp-content/uploads/2015/08/stock-forest-wood-england-UK-1550x804.jpg") no-repeat center center;
-    
-}
-
-#image-expand {
-    height: 900px;
+    margin-top: 50px;
+    margin-left: 5%;
     width: 50%;
-    overflow: hidden;
-    padding-top: 300px;
-    padding-left: 100px;
     float: left;
-}
-#about {
-    
-    padding-top: 300px;
-    width: 40%;
-    float: left;
-    padding-left: 100px;
-    text-align: center;
-}
-#about-paragraph {
     height: 600px;
-    padding-top: 20px;
-    width: 35%;
-    float: left;
-    padding-left: 155px;
+    margin-bottom: 100px;
+    background: url("https://www.carbonbrief.org/wp-content/uploads/2015/08/stock-forest-wood-england-UK-1550x804.jpg") no-repeat center center;
+}
+
+#about {  
+    height: 600px;     
+    margin-top: 50px;
+    margin-right: 2.5%;
+    width: 40%;
+    float: right;
     text-align: center;
-    line-height: 30px;
     
 }
 
-#viewing {
-    height: 600px;
+h1 {
+    margin-top: 20px
+}
+#about-paragraph {    
     padding-top: 20px;
     width: 75%;
-    padding-left: 25%;
+    float: none;
+    margin: 0 auto;
     text-align: center;
-
-
+    line-height: 30px;
+    margin-bottom: 100px;
 }
 
-footer {
-    height: 150px;
-    padding-top: 50px;
+footer{
+    height: 200px;
+    margin-top: 250px;
 
 }
-
 .social-network {
     text-align: center;
 }
-
 .social-network li {
     display: inline;
-
 }
 
 .social-network i {
-    font-size: 160%;
+    font-size: 160%;.
     margin: 1%;
     padding: 5%;
     color: black;
 }
-
 
 
 

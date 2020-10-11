@@ -16,7 +16,7 @@
 12. Acknowledgement and Thanks 
 
 ## Description
-
+- This website is constructed to display the artists' crafted landscape artwork in a compelling, yet simple and intriguing way. In the digital age, a website can be seen as a diverse storefront to which the traditional brick and mortar can not compare. As technology is granting simple access for companies to reach new clientele in distant places, the purpose for the creation of this website is to broaden the artists' clientele and create a platform to ensure a quicker buying process and enable a fellow artist to contact the client for any queries such as collaborations. 
 
 ## UX
 

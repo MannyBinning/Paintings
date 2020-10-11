@@ -52,7 +52,7 @@ body {
     width: 50%;
     float: left;
     height: 600px;
-    margin-bottom: 100px;
+    
     background: url("https://www.carbonbrief.org/wp-content/uploads/2015/08/stock-forest-wood-england-UK-1550x804.jpg") no-repeat center center;
 }
 
@@ -76,12 +76,33 @@ h1 {
     margin: 0 auto;
     text-align: center;
     line-height: 30px;
-    margin-bottom: 100px;
+    
 }
+
+/*dividers*/
+
+#dividers-line{
+    width: 75px;
+    height: 5px;
+    border: 0;
+    float: none;
+    margin: 0 auto;
+    background-color: rgb(95, 83, 83);
+    margin-bottom: 20px;
+}
+
+#submit-form {
+    padding-top: 100px;
+    width: 40%;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 footer{
     height: 200px;
-    margin-top: 250px;
+    margin-top: 100px;
 
 }
 .social-network {

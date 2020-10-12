@@ -9,19 +9,21 @@ body {
     font-family: Cinzel;
     color: black;     
 }
+/*art by arsh logo*/
 
 #main-logo {
     float: none;
     margin: 0 auto;
     width: 270px;                  
 }
+/*nav-bar*/
 
 #menu {
     font-size: 110%;
     list-style-type: none;
     float: none;
     margin: 0 auto;
-    margin-left: 700px;
+    margin-left: 600px;
 }
 #main-logo, #menu{
     line-height: 75px;
@@ -29,7 +31,7 @@ body {
 }
 #menu li {
     float: left;
-    margin-right: 200px;
+    margin-right: 100px;
 
 }
 #menu a {
@@ -40,25 +42,21 @@ body {
     border-bottom: 1px solid black;
     font-size: 110%;
 }
+/*paiting by the artist as hero image*/
 
-#main-section{
-    height:600px;
-   
-}
 
-#main-image{
-    margin-top: 50px;
-    margin-left: 5%;
-    width: 50%;
-    float: left;
+#hero-image{
     height: 600px;
-    
-    background: url("https://www.carbonbrief.org/wp-content/uploads/2015/08/stock-forest-wood-england-UK-1550x804.jpg") no-repeat center center;
+    width: 50%;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top:50px;
 }
+/*information about the artist logo*/
 
 #about {  
     height: 600px;     
-    margin-top: 50px;
+    margin-top: -600px;
     margin-right: 2.5%;
     width: 40%;
     float: right;
@@ -81,7 +79,7 @@ h1 {
 
 /*dividers*/
 
-#dividers-line{
+#dividers-line, #dividers-line1{
     width: 75px;
     height: 5px;
     border: 0;
@@ -90,6 +88,7 @@ h1 {
     background-color: rgb(95, 83, 83);
     margin-bottom: 20px;
 }
+/*form for the conact page*/
 
 #submit-form {
     padding-top: 100px;
@@ -99,9 +98,75 @@ h1 {
     text-align: center;
 }
 
+/*paintings*/
+
+#gallery1 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    height: 500px;
+    width: 25%;
+    overflow: hidden;
+    margin-left:20%;
+    margin-top:50px;
+
+}
+#gallery2 {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    height: 500px;
+    width: 25%;
+    float: right;
+    margin-right:20%;
+    margin-top:-500px;
+}
+#gallery3{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    height: 500px;
+    width: 25%;
+    overflow: hidden;
+    margin-left:20%;
+    margin-top:50px;
+}
+#gallery4{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    height: 500px;
+    width: 25%;
+    float: right;
+    margin-right:20%;
+    margin-top:-500px;
+}
+#gallery5{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    height: 500px;
+    width: 25%;
+    overflow: hidden;
+    margin-left:20%;
+    margin-top:50px;
+}
+#gallery6{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    height: 500px;
+    width: 25%;
+    float: right;
+    margin-right:20%;
+    margin-top:-500px;
+}
+
+/*social media icons*/
+
 
 footer{
-    height: 200px;
+    height: 50px;
     margin-top: 100px;
 
 }
@@ -113,12 +178,11 @@ footer{
 }
 
 .social-network i {
-    font-size: 160%;.
+    font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: black;
 }
-
 
 
 

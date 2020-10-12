@@ -166,7 +166,7 @@ h1 {
 
 
 footer{
-    height: 50px;
+    height: 20px;
     margin-top: 100px;
 
 }
@@ -184,6 +184,88 @@ footer{
     color: black;
 }
 
+@media screen and (max-width:1393px) {
+    #main-logo {
+    width: 80%;
+    margin-left: 25%;
+    }
+    #menu {
+    font-size: 110%;
+    list-style-type: none;
+    width:80%;
+    margin-left:20%;
+    }
+    #menu li {
+        float: left;
+        margin-left: 10px;
+        
 
+    }    
+    #hero-image {
+        width: 80%;
+        height: 400px;
+        margin-left: 10%;
+        
+    }
+    #about{
+        width:90%;
+        margin-left:5%;
+        margin-top: 50px;
+    }
+    #gallery1 {
+        height: 600px;
+        width: 60%;
+        float: none;
+        margin-left: 20%;
+        margin-top: 30px;
+       
+    }
+    #gallery2 {
+        height: 600px;
+        width: 60%;
+        float: none;
+        margin-left: 20%;
+        margin-top: 50px;
+       
+    }
+    #gallery3 {
+        height: 600px;
+        width: 60%;
+        float: none;
+        margin-left: 20%;
+        margin-top: 50px;
+       
+    }
+    #gallery4 {
+        height: 600px;
+        width: 60%;
+        float: none;
+        margin-left: 20%;
+        margin-top: 50px;
+       
+        
+    }
+    #gallery5 {
+        height: 600px;
+        width: 60%;
+        float: none;
+        margin-left: 20%;
+        margin-top: 50px;
+    }
+    #gallery6 {
+        height: 600px;
+        width: 60%;
+        float: none;
+        margin-left: 20%;
+        margin-top: 50px;      
+    }
+    #submit-form {
+        width: 80%;
+    }    
+}
+@media screen and (max-width:943px) {
+    
+
+}
 
 

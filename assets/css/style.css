@@ -13,8 +13,10 @@ body {
 
 #main-logo {
     float: none;
-    margin: 0 auto;
-    width: 270px;                  
+    width: 28%;
+    height: 175px;
+    margin-left:36% ;
+                     
 }
 /*nav-bar*/
 
@@ -23,7 +25,7 @@ body {
     list-style-type: none;
     float: none;
     margin: 0 auto;
-    margin-left: 600px;
+    margin-left: 35%;
 }
 #main-logo, #menu{
     line-height: 75px;
@@ -187,7 +189,7 @@ footer{
 @media screen and (max-width:1393px) {
     #main-logo {
     width: 80%;
-    margin-left: 25%;
+    margin-left: 10%;
     }
     #menu {
     font-size: 110%;
@@ -198,13 +200,11 @@ footer{
     #menu li {
         float: left;
         margin-left: 10px;
-        
-
     }    
     #hero-image {
         width: 80%;
         height: 400px;
-        margin-left: 10%;
+        margin-left: 12%;
         
     }
     #about{
@@ -263,8 +263,70 @@ footer{
         width: 80%;
     }    
 }
-@media screen and (max-width:943px) {
-    
+
+@media screen and (max-width: 943px) {
+    #hero-image {
+        width: 90%;
+        height: 300px;
+        margin-left: 5%;
+    }
+    #about{
+        font-size: 80%;
+        width: 100%;
+        height: 500px;
+        margin-top:10px;
+        margin-bottom:100px; 
+    }
+   #gallery1 {
+        height: 350px;
+        width: 60%;
+        float: none;
+        margin-left: 20%;
+        margin-top: 50px;
+       
+    }
+    #gallery2 {
+        height: 350px;
+        width: 60%;
+        float: none;
+        margin-left: 20%;
+        margin-top: 50px;
+       
+    }
+    #gallery3 {
+        height: 350px;
+        width: 60%;
+        float: none;
+        margin-left: 20%;
+        margin-top: 50px;
+       
+    }
+    #gallery4 {
+        height: 350px;
+        width: 60%;
+        float: none;
+        margin-left: 20%;
+        margin-top: 50px;
+        
+    }
+    #gallery5 {
+        height: 350px;
+        width: 60%;
+        float: none;
+        margin-left: 20%;
+        margin-top: 50px;
+    }
+    #gallery6 {
+        height: 350px;
+        width: 60%;
+        float: none;
+        margin-left: 20%;
+        margin-top: 50px;      
+    }
+    #submit-form {
+        margin-top:200px;
+        width: 80%;
+    }  
 
 }
 

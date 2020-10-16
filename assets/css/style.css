@@ -9,77 +9,17 @@ body {
     font-family: Cinzel;
     color: black;     
 }
-/*art by arsh logo*/
-
-#main-logo {
-    float: none;
-    width: 28%;
-    height: 175px;
-    margin-left:36% ;
-                     
-}
-/*nav-bar*/
-
-#menu {
-    font-size: 110%;
-    list-style-type: none;
-    float: none;
-    margin: 0 auto;
-    margin-left: 35%;
-}
-#main-logo, #menu{
-    line-height: 75px;
-    
-}
-#menu li {
-    float: left;
-    margin-right: 100px;
-
-}
-#menu a {
-    text-decoration: none;
-    color: inherit; 
-}
-#menu a:hover {
-    border-bottom: 1px solid black;
-    font-size: 110%;
-}
-/*paiting by the artist as hero image*/
-
-
-#hero-image{
-    height: 600px;
-    width: 50%;
-    overflow: hidden;
-    margin-left: 5%;
-    margin-top:50px;
-}
-/*information about the artist logo*/
-
-#about {  
-    height: 600px;     
-    margin-top: -600px;
-    margin-right: 2.5%;
-    width: 40%;
-    float: right;
-    text-align: center;
-    
+/*navbar*/
+li {
+    margin-left: 50px;
 }
 
-h1 {
-    margin-top: 20px
-}
-#about-paragraph {    
-    padding-top: 20px;
-    width: 75%;
-    float: none;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 30px;
-    
+/*main-image*/
+.container {
+    margin-top: 80px;
 }
 
-/*dividers*/
+/*dividers for contact page*/
 
 #dividers-line, #dividers-line1{
     width: 75px;
@@ -91,7 +31,6 @@ h1 {
     margin-bottom: 20px;
 }
 /*form for the conact page*/
-
 #submit-form {
     padding-top: 100px;
     width: 40%;
@@ -100,76 +39,10 @@ h1 {
     text-align: center;
 }
 
-/*paintings*/
-
-#gallery1 {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    height: 500px;
-    width: 25%;
-    overflow: hidden;
-    margin-left:20%;
-    margin-top:50px;
-
-}
-#gallery2 {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    height: 500px;
-    width: 25%;
-    float: right;
-    margin-right:20%;
-    margin-top:-500px;
-}
-#gallery3{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    height: 500px;
-    width: 25%;
-    overflow: hidden;
-    margin-left:20%;
-    margin-top:50px;
-}
-#gallery4{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    height: 500px;
-    width: 25%;
-    float: right;
-    margin-right:20%;
-    margin-top:-500px;
-}
-#gallery5{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    height: 500px;
-    width: 25%;
-    overflow: hidden;
-    margin-left:20%;
-    margin-top:50px;
-}
-#gallery6{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    height: 500px;
-    width: 25%;
-    float: right;
-    margin-right:20%;
-    margin-top:-500px;
-}
-
-/*social media icons*/
-
-
+/*footer with social media links*/
 footer{
     height: 20px;
-    margin-top: 100px;
+    margin-top: 50px;
 
 }
 .social-network {
@@ -187,142 +60,14 @@ footer{
 }
 
 @media screen and (max-width:1393px) {
-    #main-logo {
-    width: 80%;
-    margin-left: 10%;
-    }
-    #menu {
-    font-size: 110%;
-    list-style-type: none;
-    width:80%;
-    margin-left:20%;
-    }
-    #menu li {
-        float: left;
-        margin-left: 10px;
-    }    
-    #hero-image {
-        width: 80%;
-        height: 400px;
-        margin-left: 12%;
-        
-    }
-    #about{
-        width:90%;
-        margin-left:5%;
-        margin-top: 50px;
-    }
-    #gallery1 {
-        height: 600px;
-        width: 60%;
-        float: none;
-        margin-left: 20%;
-        margin-top: 30px;
-       
-    }
-    #gallery2 {
-        height: 600px;
-        width: 60%;
-        float: none;
-        margin-left: 20%;
-        margin-top: 50px;
-       
-    }
-    #gallery3 {
-        height: 600px;
-        width: 60%;
-        float: none;
-        margin-left: 20%;
-        margin-top: 50px;
-       
-    }
-    #gallery4 {
-        height: 600px;
-        width: 60%;
-        float: none;
-        margin-left: 20%;
-        margin-top: 50px;
-       
-        
-    }
-    #gallery5 {
-        height: 600px;
-        width: 60%;
-        float: none;
-        margin-left: 20%;
-        margin-top: 50px;
-    }
-    #gallery6 {
-        height: 600px;
-        width: 60%;
-        float: none;
-        margin-left: 20%;
-        margin-top: 50px;      
-    }
+
     #submit-form {
         width: 80%;
     }    
 }
 
 @media screen and (max-width: 943px) {
-    #hero-image {
-        width: 90%;
-        height: 300px;
-        margin-left: 5%;
-    }
-    #about{
-        font-size: 80%;
-        width: 100%;
-        height: 500px;
-        margin-top:10px;
-        margin-bottom:100px; 
-    }
-   #gallery1 {
-        height: 350px;
-        width: 60%;
-        float: none;
-        margin-left: 20%;
-        margin-top: 50px;
-       
-    }
-    #gallery2 {
-        height: 350px;
-        width: 60%;
-        float: none;
-        margin-left: 20%;
-        margin-top: 50px;
-       
-    }
-    #gallery3 {
-        height: 350px;
-        width: 60%;
-        float: none;
-        margin-left: 20%;
-        margin-top: 50px;
-       
-    }
-    #gallery4 {
-        height: 350px;
-        width: 60%;
-        float: none;
-        margin-left: 20%;
-        margin-top: 50px;
-        
-    }
-    #gallery5 {
-        height: 350px;
-        width: 60%;
-        float: none;
-        margin-left: 20%;
-        margin-top: 50px;
-    }
-    #gallery6 {
-        height: 350px;
-        width: 60%;
-        float: none;
-        margin-left: 20%;
-        margin-top: 50px;      
-    }
+
     #submit-form {
         margin-top:200px;
         width: 80%;

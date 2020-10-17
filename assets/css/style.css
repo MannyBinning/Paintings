@@ -11,16 +11,16 @@ body {
 }
 /*navbar*/
 li {
-    margin-left: 50px;
+    margin-left: 25px;
 }
-
 /*main-image*/
 .container {
     margin-top: 80px;
 }
-
+.materials {
+    margin-top:20px;
+}
 /*dividers for contact page*/
-
 #dividers-line, #dividers-line1{
     width: 75px;
     height: 5px;
@@ -38,7 +38,6 @@ li {
     margin: 0 auto;
     text-align: center;
 }
-
 /*footer with social media links*/
 footer{
     height: 20px;
@@ -69,7 +68,6 @@ footer{
 @media screen and (max-width: 943px) {
 
     #submit-form {
-        margin-top:200px;
         width: 80%;
     }  
 

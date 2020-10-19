@@ -15,7 +15,7 @@ li {
 }
 /*main-image*/
 .container {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .materials {
     margin-top:20px;
@@ -59,6 +59,7 @@ footer{
 }
 
 @media screen and (max-width:1393px) {
+    
 
     #submit-form {
         width: 80%;
@@ -66,6 +67,11 @@ footer{
 }
 
 @media screen and (max-width: 943px) {
+
+    .container {
+        margin: 0 auto;
+    }
+    
 
     #submit-form {
         width: 80%;

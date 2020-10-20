@@ -101,6 +101,12 @@ alt="Contact-Page"/>
 
 
 # Deployment
+The site has been deployed to github and is accessible on [github-pages](https://mannybinning.github.io/Paintings/)
+<p align="center">
+  <img src="assets/images/GithubDeployment.png" 
+alt="Github screenshot"/>
+</p>
+
 
 # Code Validation
 
@@ -129,11 +135,27 @@ alt="CSS-Page Validation"/>
 </p>
 
 # Testing
-- Test 
-<p align="center"> Speed Test
-  <img src="assets/images/SpeedTest.bmp" 
-alt="Speed Test Screenshot"/>
+- To test the website, I used [GTmetrix](https://gtmetrix.com/reports/mannybinning.github.io/sqZ5nBYv). Initially the results were as follow:
+
+<p align="center"> Initial Test
+  <img src="assets/images/InitialTest.png" 
+alt="Speed Test 1 Screenshot"/>
 </p>
+
+- With the help of [TinyPing](https://tinypng.com/), I managed to compress all the images so the results would be improved.
+
+<p align="center"> TinyPing Assitance
+  <img src="assets/images/tinyping.png" 
+alt="tiny ping screenshot"/>
+</p>
+
+-Second Test results are as follow: 
+
+<p align="center"> Second Test
+  <img src="assets/images/SpeedTest2.png" 
+alt="Second Speed Test screenshot"/>
+</p>
+
 
 
 # Technologies
@@ -152,6 +174,12 @@ Bootstrap was also used for the modal for paintings.
 - [Google Font](https://fonts.google.com/)  was used all through the website for font.
 
 - [Font Awesome](https://fontawesome.com/) was used for the icons used for the website; such as social media icons in the footer section. 
+
+- [GTmetrix](https://tinypng.com/) was used to test the speed of the website. 
+
+- [TinyPing](https://gtmetrix.com/reports/mannybinning.github.io/sqZ5nBYv) was used to compress the images without making any changed to the size. 
+
+
 
 
 

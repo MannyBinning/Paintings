@@ -46,28 +46,28 @@
                 Best Wishes!
             </h5>
         <hr id="dividers-line1">
-        <form action="https://formdump.codeinstitute.net/" method="POST">
+        <form action="https://formdump.codeinstitute.net/" method="post">
         <!-- Name section-->
             <div class="form-group">
                 <label for="NameInput">Name</label>
-                <input type="text" class="form-control" id="NameInput" placeholder="Full Name" required>
+                <input name="name" type="text" class="form-control" id="NameInput" placeholder="Full Name" required/>
             </div>
         <!-- Email Section-->
             <div class="form-group">
                 <label for="EmailInput">Email</label>
-                <input type="email" class="form-control" id="EmailInput" placeholder="email@outlook.com" required>
+                <input name="email" type="email" class="form-control" id="EmailInput" placeholder="email@outlook.com" required/>
             </div>
         <!-- Contact section-->
             <div class="form-group">
                 <label for="NumberInput">Contact Number</label>
-                <input type="number" class="form-control" id="NumberInput" placeholder="contact" required>
+                <input name="number" type="number" class="form-control" id="NumberInput" placeholder="contact" required/>
             </div>
         <!-- Message section-->
             <div class="form-group">
                 <label for="MessageInput">Message</label>
                 <textarea class="form-control" id="MessageInput" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-secondary">Submit</button>        
+            <button class="btn btn-secondary" type="submit" >Submit</button>        
         </form>
     </section>
     <footer>

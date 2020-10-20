@@ -180,19 +180,9 @@ Bootstrap was also used for the modal for paintings.
 - [TinyPing](https://gtmetrix.com/reports/mannybinning.github.io/sqZ5nBYv) was used to compress the images without making any changed to the size. 
 
 
-
-
-
 # Acknowledgement
 I would like to thank code isntute to start with for all the help and support provided through the modules and introducing myself to mentor Felipe, who has been a great help through out the journey so far. 
 I would also like to mention Slack and Tutors who are always willing to help as and when needed.
 Also, technologies I have come across in this process such as bootstrap, font awsome, google fonts and etc. All these have been a great help at every step of the journey so far. 
-
-
-
-
-
-
-
 
 
